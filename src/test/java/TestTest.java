@@ -5,5 +5,6 @@ public class TestTest{
     @Test
     public void testUser(){
         
+        System.out.println("Test");
     }
 }

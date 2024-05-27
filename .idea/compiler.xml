@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Intensive_Luma" />
+        <module name="LUMAJAVASeleniumTestNGAllure" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Intensive_Luma" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
