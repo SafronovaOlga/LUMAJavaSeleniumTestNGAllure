@@ -1,10 +1,17 @@
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class TestTest{
     
     @Test
-    public void testUser(){
+    public void testUserHappyPath(){
         
-        System.out.println("Test");
+        Assert.assertTrue(true);
     }
+    
+//    @Test
+//    public void testUser(){
+//
+//        Assert.assertFalse(true);
+//    }
 }
