@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Jun 07 09:47:22 GMT 2024","Fri Jun 07 09:47:22 GMT 2024","20","Surefire suite","Surefire test","TestTest","TestTest","testUserHappyPath","testUserHappyPath",""
+"passed","Fri Jun 07 09:47:26 GMT 2024","Fri Jun 07 09:47:28 GMT 2024","1727","Surefire suite","Surefire test","com.lumatest.tests.NavigationTest","com.lumatest.tests.NavigationTest","testNavigationMenu","testNavigationMenu",""
+"passed","Fri Jun 07 09:47:28 GMT 2024","Fri Jun 07 09:47:30 GMT 2024","1203","Surefire suite","Surefire test","com.lumatest.tests.NavigationTest","com.lumatest.tests.NavigationTest","testOpenBaseURL","TC-001 Open Base URL","TC-001 Open Base URL"
+"unknown","Fri Jun 07 09:47:22 GMT 2024","Fri Jun 07 09:47:22 GMT 2024","2","Surefire suite","Surefire test","TestTest","TestTest","testUser","testUser",""
