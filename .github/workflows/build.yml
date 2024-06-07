@@ -47,11 +47,11 @@ jobs:
           CHROME_OPTIONS: --remote-allow-origins=*;--disable-gpu;--no-sandbox;--disable-dev-shm-usage;--headless=new;--window-size=1920,1080
           CI_RUN: true
           
-      - name: Test Report for ${{ matrix.os }}
+      - name: Dorny Test Reporter
         uses: dorny/test-reporter@v1.9.1
         if: success() || failure()
         with:
-          name: Project Test Report
+          name: Test Report for ${{ matrix.os }}
           path: target/surefire-reports/TEST-*.xml
           reporter: java-junit    
 
