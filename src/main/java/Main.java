@@ -1,1 +1,1 @@
-public class Main{}
+public class Main{//    public static final By SALE_MENU = By.xpath("//nav//span[text()='Sale']");//    public static final String SALE_URL = BASE_URL + "/sale.html";//    public static final String SALE_TITLE = "Sale";}
