@@ -55,9 +55,7 @@
         <dependency>
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-testng</artifactId>
-            <scope>test</scope>
         </dependency>
-
     </dependencies>
 
     <build>
@@ -70,6 +68,11 @@
                     <argLine>
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
                     </argLine>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>
+                            testng.xml
+                        </suiteXmlFile>
+                    </suiteXmlFiles>
                 </configuration>
                 <dependencies>
                     <dependency>
@@ -89,7 +92,6 @@
                 </configuration>
             </plugin>
         </plugins>
-
     </build>
 
 </project>
